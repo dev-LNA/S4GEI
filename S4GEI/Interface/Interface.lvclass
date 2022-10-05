@@ -26,15 +26,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Read" Type="Folder">
-		<Item Name="Read Channel Controllers.vi" Type="VI" URL="../Read Channel Controllers.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!R!)1&gt;"9X&amp;V;8*F!!Z!)1F1986T:3""9X%!$E!B#&amp;.U&lt;X!A17.R!!!+1#%&amp;17*P=H1!*E"1!!1!"1!'!!=!#"&gt;"9X&amp;V;8.J&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S=Q!K1(!!(A!!%R&amp;*&lt;H2F=G:B9W5O&lt;(:D&lt;'&amp;T=Q!.37ZU:8*G97.F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#J!=!!?!!!4%5FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!R*&lt;H2F=G:B9W5A;7Y!!'%!]!!-!!-!"!!*!!I!"!!%!!1!"!!,!!1!"!!-!A!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!U!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
-		</Item>
 		<Item Name="Read Previous CCD Config.vi" Type="VI" URL="../Read Previous CCD Config.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,G!!!!(Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!V!"A!'5&amp;*&amp;15V1!!!41!9!$&amp;*&amp;1520662@5E&amp;521!!$5!'!!&gt;&amp;46^(15F/!!N!"A!%6E**4A!!%U!'!!R*4EF535&amp;-8UR*4E5!!"6!"A!/35Z*6%F"4&amp;^$4UR645Y!!"&amp;!"A!+2EF/15R@4%F/21!!%U!'!!R'35Z"4&amp;^$4UR645Y!!".!"A!-6&amp;**2U&gt;&amp;5F^.4U2&amp;!!!,1!9!"%B#35Y!!"&amp;!"A!,5UB66&amp;2&amp;5F^56%Q!%U!'!!R43&amp;656%638UV02%5!!"N!"A!55UB66&amp;2&amp;5F^05%6/35Z(8V2*455!!"N!"A!55UB66&amp;2&amp;5F^$4%^435Z(8V2*455!!"N!"A!56E636%F$15R@5UB*2F2@5V"&amp;251!!!^!"A!*5E6"2&amp;^.4U2&amp;!"2!)1Z'5E&amp;.26^55E&amp;/5U:&amp;5A!!(5!'!":726*535."4&amp;^$4%^$3V^74UR515&gt;&amp;!!!81!9!%%&amp;$566*5UF535^/8UV02%5!!"&amp;!"A!+152@1UB"4EZ&amp;4!!!$5!'!!&gt;&amp;46^.4U2&amp;!$R!5!!6!!5!"A!(!!A!#1!+!!M!$!!.!!Y!$Q!1!"%!%A!4!"1!&amp;1!7!"=!'!!:#E.$2#"$&lt;WZG;7=!!#J!=!!?!!!4%5FO&gt;'6S:G&amp;D:3ZM&gt;G.M98.T!!V*&lt;H2F=G:B9W5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!+E"Q!"Y!!"-237ZU:8*G97.F,GRW9WRB=X-!$%FO&gt;'6S:G&amp;D:3"J&lt;A!!91$Q!!Q!!Q!%!"I!'Q!%!!1!"!!%!"Q!"!!%!"U#!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!(A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
