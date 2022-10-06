@@ -9,6 +9,5 @@
 *.dylib
 
 # Metadata
-*.aliases
 *.lvlps
 .cache/
