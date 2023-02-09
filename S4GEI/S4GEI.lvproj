@@ -38,6 +38,7 @@
 		<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
 		<Item Name="TCPIP.lvclass" Type="LVClass" URL="../TCPIP/TCPIP.lvclass"/>
 		<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
+		<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
 		<Item Name="S4GEI.vi" Type="VI" URL="../S4GEI.vi"/>
 		<Item Name="TESTE.vi" Type="VI" URL="../TESTE.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
