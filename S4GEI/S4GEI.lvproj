@@ -18,6 +18,7 @@
 			<Item Name="GUI_CH4_Comm_TCPIP_NEW.vi" Type="VI" URL="../GUI_CH4_Comm_TCPIP_NEW.vi"/>
 			<Item Name="GUI_CH1_Comm_Stream.vi" Type="VI" URL="../GUI_CH1_Comm_Stream.vi"/>
 			<Item Name="GUI_CH1_Comm_ZEROMQ.vi" Type="VI" URL="../GUI_CH1_Comm_ZEROMQ.vi"/>
+			<Item Name="get_ACS_status.vi" Type="VI" URL="../get_ACS_status.vi"/>
 		</Item>
 		<Item Name="TCS Comm" Type="Folder">
 			<Item Name="TCS_VISA.vi" Type="VI" URL="../TCS_VISA.vi"/>
