@@ -19,6 +19,7 @@
 			<Item Name="GUI_CH1_Comm_Stream.vi" Type="VI" URL="../GUI_CH1_Comm_Stream.vi"/>
 			<Item Name="GUI_CH1_Comm_ZEROMQ.vi" Type="VI" URL="../GUI_CH1_Comm_ZEROMQ.vi"/>
 			<Item Name="get_ACS_status.vi" Type="VI" URL="../get_ACS_status.vi"/>
+			<Item Name="publish_status.vi" Type="VI" URL="../publish_status.vi"/>
 		</Item>
 		<Item Name="TCS Comm" Type="Folder">
 			<Item Name="TCS_VISA.vi" Type="VI" URL="../TCS_VISA.vi"/>
@@ -29,17 +30,11 @@
 			<Item Name="FWCS_TCPIP.vi" Type="VI" URL="../FWCS_TCPIP.vi"/>
 		</Item>
 		<Item Name="Channel.lvclass" Type="LVClass" URL="../Channel GUI/Channel.lvclass"/>
-		<Item Name="Filter_Wheel.lvclass" Type="LVClass" URL="../Filter_Wheel/Filter_Wheel.lvclass"/>
-		<Item Name="FWCS_ACS_Iterator.lvclass" Type="LVClass" URL="../FWCS_ACS_Iterator/FWCS_ACS_Iterator.lvclass"/>
-		<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
 		<Item Name="RxTx.lvclass" Type="LVClass" URL="../RxTx/RxTx.lvclass"/>
-		<Item Name="Serial Communication.lvclass" Type="LVClass" URL="../Serial Communication/Serial Communication.lvclass"/>
-		<Item Name="SPARC4_GEI.lvclass" Type="LVClass" URL="../S4GEI/SPARC4_GEI.lvclass"/>
+		<Item Name="S4GEI.lvclass" Type="LVClass" URL="../S4GEI/S4GEI.lvclass"/>
 		<Item Name="State Machine.lvclass" Type="LVClass" URL="../State Machine/State Machine.lvclass"/>
-		<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
-		<Item Name="TCPIP.lvclass" Type="LVClass" URL="../TCPIP/TCPIP.lvclass"/>
-		<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
 		<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
+		<Item Name="TCPIP.lvclass" Type="LVClass" URL="../TCPIP/TCPIP.lvclass"/>
 		<Item Name="S4GEI.vi" Type="VI" URL="../S4GEI.vi"/>
 		<Item Name="TESTE.vi" Type="VI" URL="../TESTE.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -58,6 +53,12 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 			</Item>
+			<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
+			<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
+			<Item Name="Filter_Wheel.lvclass" Type="LVClass" URL="../Filter_Wheel/Filter_Wheel.lvclass"/>
+			<Item Name="Serial Communication.lvclass" Type="LVClass" URL="../Serial Communication/Serial Communication.lvclass"/>
+			<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
+			<Item Name="FWCS_ACS_Iterator.lvclass" Type="LVClass" URL="../FWCS_ACS_Iterator/FWCS_ACS_Iterator.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GEI" Type="EXE">
