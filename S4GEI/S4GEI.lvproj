@@ -37,6 +37,7 @@
 		<Item Name="TCPIP.lvclass" Type="LVClass" URL="../TCPIP/TCPIP.lvclass"/>
 		<Item Name="S4GEI.vi" Type="VI" URL="../S4GEI.vi"/>
 		<Item Name="TESTE.vi" Type="VI" URL="../TESTE.vi"/>
+		<Item Name="GUI_CH1_Comm_ZEROMQ_REQ.vi" Type="VI" URL="../GUI_CH1_Comm_ZEROMQ_REQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
