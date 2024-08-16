@@ -17,6 +17,7 @@
 			<Item Name="GUI_CH3_Comm_TCPIP_NEW.vi" Type="VI" URL="../GUI_CH3_Comm_TCPIP_NEW.vi"/>
 			<Item Name="GUI_CH4_Comm_TCPIP_NEW.vi" Type="VI" URL="../GUI_CH4_Comm_TCPIP_NEW.vi"/>
 			<Item Name="GUI_CH1_Comm_Stream.vi" Type="VI" URL="../GUI_CH1_Comm_Stream.vi"/>
+			<Item Name="GUI_CH1_Comm_ZEROMQ_REQ.vi" Type="VI" URL="../GUI_CH1_Comm_ZEROMQ_REQ.vi"/>
 			<Item Name="GUI_CH1_Comm_ZEROMQ.vi" Type="VI" URL="../GUI_CH1_Comm_ZEROMQ.vi"/>
 			<Item Name="get_ACS_status.vi" Type="VI" URL="../get_ACS_status.vi"/>
 			<Item Name="publish_status.vi" Type="VI" URL="../publish_status.vi"/>
@@ -37,7 +38,6 @@
 		<Item Name="TCPIP.lvclass" Type="LVClass" URL="../TCPIP/TCPIP.lvclass"/>
 		<Item Name="S4GEI.vi" Type="VI" URL="../S4GEI.vi"/>
 		<Item Name="TESTE.vi" Type="VI" URL="../TESTE.vi"/>
-		<Item Name="GUI_CH1_Comm_ZEROMQ_REQ.vi" Type="VI" URL="../GUI_CH1_Comm_ZEROMQ_REQ.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
