@@ -12,19 +12,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Comm" Type="Folder">
-			<Item Name="GUI_CH1_Comm_TCPIP_NEW.vi" Type="VI" URL="../GUI_CH1_Comm_TCPIP_NEW.vi"/>
-			<Item Name="GUI_CH2_Comm_TCPIP_NEW.vi" Type="VI" URL="../GUI_CH2_Comm_TCPIP_NEW.vi"/>
-			<Item Name="GUI_CH3_Comm_TCPIP_NEW.vi" Type="VI" URL="../GUI_CH3_Comm_TCPIP_NEW.vi"/>
-			<Item Name="GUI_CH4_Comm_TCPIP_NEW.vi" Type="VI" URL="../GUI_CH4_Comm_TCPIP_NEW.vi"/>
-			<Item Name="GUI_CH1_Comm_Stream.vi" Type="VI" URL="../GUI_CH1_Comm_Stream.vi"/>
 			<Item Name="GUI_CH1_Comm_ZEROMQ_REQ.vi" Type="VI" URL="../GUI_CH1_Comm_ZEROMQ_REQ.vi"/>
 			<Item Name="GUI_CH1_Comm_ZEROMQ.vi" Type="VI" URL="../GUI_CH1_Comm_ZEROMQ.vi"/>
 			<Item Name="get_ACS_status.vi" Type="VI" URL="../get_ACS_status.vi"/>
 			<Item Name="publish_status.vi" Type="VI" URL="../publish_status.vi"/>
-		</Item>
-		<Item Name="TCS Comm" Type="Folder">
-			<Item Name="TCS_VISA.vi" Type="VI" URL="../TCS_VISA.vi"/>
-			<Item Name="TCS_Stream.vi" Type="VI" URL="../TCS_Stream.vi"/>
 		</Item>
 		<Item Name="FWCS Comm" Type="Folder">
 			<Item Name="FWCS_Stream.vi" Type="VI" URL="../FWCS_Stream.vi"/>
@@ -35,7 +26,6 @@
 		<Item Name="S4GEI.lvclass" Type="LVClass" URL="../S4GEI/S4GEI.lvclass"/>
 		<Item Name="State Machine.lvclass" Type="LVClass" URL="../State Machine/State Machine.lvclass"/>
 		<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
-		<Item Name="TCPIP.lvclass" Type="LVClass" URL="../TCPIP/TCPIP.lvclass"/>
 		<Item Name="S4GEI.vi" Type="VI" URL="../S4GEI.vi"/>
 		<Item Name="TESTE.vi" Type="VI" URL="../TESTE.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -43,9 +33,6 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
-				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
-				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="zeromq.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/zeromq/zeromq.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -57,9 +44,10 @@
 			<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
 			<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
 			<Item Name="Filter_Wheel.lvclass" Type="LVClass" URL="../Filter_Wheel/Filter_Wheel.lvclass"/>
-			<Item Name="Serial Communication.lvclass" Type="LVClass" URL="../Serial Communication/Serial Communication.lvclass"/>
 			<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
 			<Item Name="FWCS_ACS_Iterator.lvclass" Type="LVClass" URL="../FWCS_ACS_Iterator/FWCS_ACS_Iterator.lvclass"/>
+			<Item Name="Read JSON status.vi" Type="VI" URL="../Camera/Read JSON status.vi"/>
+			<Item Name="Write JSON status.vi" Type="VI" URL="../Camera/Write JSON status.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GEI" Type="EXE">
@@ -96,7 +84,7 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TCS Comm/TCS_VISA.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -108,18 +96,18 @@
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Comm/GUI_CH1_Comm_TCPIP_NEW.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Show fp when called</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/TCS Comm/TCS_Stream.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Comm/GUI_CH1_Comm_Stream.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
