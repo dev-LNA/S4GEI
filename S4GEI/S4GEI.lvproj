@@ -48,6 +48,8 @@
 			<Item Name="FWCS_ACS_Iterator.lvclass" Type="LVClass" URL="../FWCS_ACS_Iterator/FWCS_ACS_Iterator.lvclass"/>
 			<Item Name="Read JSON status.vi" Type="VI" URL="../Camera/Read JSON status.vi"/>
 			<Item Name="Write JSON status.vi" Type="VI" URL="../Camera/Write JSON status.vi"/>
+			<Item Name="Read RxTx.lvclass.vi" Type="VI" URL="../Channel GUI/Read RxTx.lvclass.vi"/>
+			<Item Name="Erase Message.vi" Type="VI" URL="../Channel GUI/Erase Message.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="GEI" Type="EXE">
