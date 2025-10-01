@@ -40,15 +40,13 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
 			<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
 			<Item Name="Filter_Wheel.lvclass" Type="LVClass" URL="../Filter_Wheel/Filter_Wheel.lvclass"/>
 			<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
 			<Item Name="FWCS_ACS_Iterator.lvclass" Type="LVClass" URL="../FWCS_ACS_Iterator/FWCS_ACS_Iterator.lvclass"/>
-			<Item Name="Read JSON status.vi" Type="VI" URL="../Camera/Read JSON status.vi"/>
-			<Item Name="Write JSON status.vi" Type="VI" URL="../Camera/Write JSON status.vi"/>
-			<Item Name="Read RxTx.lvclass.vi" Type="VI" URL="../Channel GUI/Read RxTx.lvclass.vi"/>
 			<Item Name="Erase Message.vi" Type="VI" URL="../Channel GUI/Erase Message.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
