@@ -26,8 +26,10 @@
 		<Item Name="S4GEI.lvclass" Type="LVClass" URL="../S4GEI/S4GEI.lvclass"/>
 		<Item Name="State Machine.lvclass" Type="LVClass" URL="../State Machine/State Machine.lvclass"/>
 		<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
+		<Item Name="S4ICS.lvclass" Type="LVClass" URL="../S4ICS/S4ICS.lvclass"/>
 		<Item Name="S4GEI.vi" Type="VI" URL="../S4GEI.vi"/>
 		<Item Name="TESTE.vi" Type="VI" URL="../TESTE.vi"/>
+		<Item Name="Mechanism.lvclass" Type="LVClass" URL="../Mechanism/Mechanism.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
