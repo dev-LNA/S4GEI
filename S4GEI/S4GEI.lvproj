@@ -46,9 +46,7 @@
 			</Item>
 			<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
 			<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
-			<Item Name="Filter_Wheel.lvclass" Type="LVClass" URL="../Filter_Wheel/Filter_Wheel.lvclass"/>
 			<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
-			<Item Name="FWCS_ACS_Iterator.lvclass" Type="LVClass" URL="../FWCS_ACS_Iterator/FWCS_ACS_Iterator.lvclass"/>
 			<Item Name="Erase Message.vi" Type="VI" URL="../Channel GUI/Erase Message.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
