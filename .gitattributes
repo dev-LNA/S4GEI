@@ -1,2 +1,35 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize line endings
+# Store all text files as LF in repository
+* text=auto eol=lf
+
+# Documentation
+*.md      text eol=lf
+*.rst     text eol=lf
+*.txt     text eol=lf
+# Shell scripts (CI/Linux compatibility)
+*.sh      text eol=lf
+# Windows scripts
+*.bat     text eol=crlf
+*.ps1     text eol=crlf
+# LabVIEW files (binary – NEVER normalize)
+*.vi filter=lfs diff=lfs merge=lfs -text
+*.ctl filter=lfs diff=lfs merge=lfs -text
+*.lvclass filter=lfs diff=lfs merge=lfs -text
+*.lvlib   binary
+*.lvproj  binary
+*.aliases binary
+*.lvsc    binary
+*.lvtest  binary
+*.lvbitx  binary
+# Common binary assets
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.pdf    binary
+*.zip    binary
+*.tar    binary
+*.gz     binary
+*.exe    binary
+*.dll    binary
+*.so     binary
